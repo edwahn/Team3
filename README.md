@@ -20,3 +20,5 @@ When the services are running you can view and interact with the front end porta
 test
 
 Edtest
+
+LinTest
