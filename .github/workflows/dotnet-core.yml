@@ -32,6 +32,6 @@ jobs:
         # A file, directory or wildcard pattern that describes what to upload
         path: ${{ github.workspace }}/AnimalAdoption.Common.Logic/bin/Release/*
         # The desired behavior if no files are found using the provided path.
-        if-no-files-found: warn   
+        if-no-files-found: error   
 #     - name: Test
 #       run: dotnet test --no-restore --verbosity normal
