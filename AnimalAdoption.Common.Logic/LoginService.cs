@@ -40,7 +40,7 @@ namespace AnimalAdoption.Common.Logic
                 case "orange":
                     name = "Murphy";
                     break;
-                case "tiger":
+                case "placeholder":
                     name = "Tiger";
                     break;
             }
