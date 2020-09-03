@@ -20,10 +20,12 @@ jobs:
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 3.1.301
-    - name: Install dependencies
-      run: dotnet restore
-    - name: Build
-      run: dotnet build AnimalAdoption.Web.Portal --configuration Release --no-restore
+#     - name: Install dependencies
+#       run: dotnet restore
+#     - name: Build
+#       run: dotnet build AnimalAdoption.Web.Portal --configuration Release --no-restore
+    - name: Publish
+      run: dotnet publish --configuration Release
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v2.1.4
       with:
