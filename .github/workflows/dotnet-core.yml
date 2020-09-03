@@ -30,7 +30,7 @@ jobs:
         # Artifact name
         name: artifact
         # A file, directory or wildcard pattern that describes what to upload
-        path: /artifact
+        path: /home/runner/work/Team3/Team3/AnimalAdoption.Common.Logic/bin/Release/netstandard2.0/*
         # The desired behavior if no files are found using the provided path.
         if-no-files-found: warn   
 #     - name: Test
